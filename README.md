@@ -17,7 +17,7 @@ Conta ativa na InnovaPay África
 API Key válida
 📦 Instalação
 # Clonar o repositório
-git clone https://github.com/seu-usuario/InnovaPay-Exemplo-gateway.git
+git clone https://github.com/InnovaPay/InnovaPay-Exemplo-gateway.git
 
 # Entrar no diretório
 cd InnovaPay-Exemplo-gateway
@@ -29,7 +29,7 @@ npm install
 Crie um arquivo .env na raiz do projeto:
 
 INNOVAPAY_API_KEY=your_api_key_here
-INNOVAPAY_BASE_URL=https://api.innovapayafrica.com
+INNOVAPAY_BASE_URL=https://pay.innovatekno.com/pay/api/v1
 🚀 Como usar
 1. Criar um pagamento
 const axios = require("axios");
@@ -93,7 +93,7 @@ Implemente autenticação e controle de acesso
 
 Utilize credenciais de sandbox para testes:
 
-INNOVAPAY_BASE_URL=https://sandbox.api.innovapayafrica.com
+INNOVAPAY_BASE_URL=https://pay.innovatekno.com/pay/sandbox/api/v1
 📞 Suporte
 
 Se precisar de ajuda:
